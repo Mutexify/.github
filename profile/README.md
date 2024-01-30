@@ -18,7 +18,7 @@ Web app providing functionality to register new lock slot and manage existing lo
 
 Frontend for Frontface.
 
-### Backface
+### Lockkeeper
 
 Lambda function managing lock requests. There is only one instance of this service, and it synchronously processes messages from queue, guaranteeing consistency.
 
